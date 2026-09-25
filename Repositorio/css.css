@@ -1,0 +1,37 @@
+
+.playfair-display{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+body  {
+background: linear-gradient(129deg, #f0ede5 0%, #81807e 100%);
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+div{
+    font-family: "Playfair Display", serif;
+   background-image: url(back.jpg);
+   width:360px;  
+   height: 600px;
+   background-size: cover;
+   background-position: center;
+   border-radius: 20px;
+   border: 7px solid #f0ede5;
+   text-align: center;
+   margin: 0 auto;
+}
+
+h1 {
+    background-color:#f0ede594;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px #050505;
+}
+p {
+    background-color:#f0ede594;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px #0b0b0b;
+}
