@@ -26,12 +26,24 @@ div{
 }
 
 h1 {
-    background-color:#f0ede594;
+    background-color:rgba (30,30,30,0.8);
+    backdrop-filter: blur(5px);
     border-radius: 20px;
     text-shadow: 2px 2px 4px #050505;
 }
 p {
-    background-color:#f0ede594;
+    background-color:rgba(255, 255,255,0.1); 
+    backdrop-filter: blur(5px);
     border-radius: 20px;
     text-shadow: 2px 2px 4px #0b0b0b;
+}
+button {
+  background: rgba(255, 255,255,0.1); 
+  backdrop-filter: 
+  blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: rgb(89, 134, 238);
+  padding: 12px 24px;
+    font-family: "Playfair Display", serif;
+  border-radius: 10px;
 }
